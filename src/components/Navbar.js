@@ -13,10 +13,10 @@ const NavBar =()=> {
           <Link to="/">Exchange</Link>
         </li>
         <li>
-          <Link to="/metadata">Metadata</Link>
+          <Link to="/instruments">Instrument</Link>
         </li>
         <li>
-          <Link to="/candle">Candle</Link>
+          <Link to="/candles">Candle</Link>
         </li>
       </ul>
       <input type="text" placeholder="Search..." />
