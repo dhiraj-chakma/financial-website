@@ -1,0 +1,41 @@
+
+
+.container {
+  margin-left: 20px;
+}
+
+th,h1,h2,h3,h4,h5,h6{
+  color:#008080;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  max-width: 0; /* Initially setting max-width to 0, works with overflow properties */
+  overflow: hidden; /* Hides any text that go out of cell */
+  white-space: nowrap; /* it prevents the text to be multi line */
+  text-overflow: ellipsis; /* Adds an (...) to text that overflows the cell width */
+  width: 22%; /* fixed width */
+}
+
+
+
+
+.link {
+  text-decoration: none;
+  color: #424242;
+}
+.link:hover{
+  text-decoration: none;
+  color: #424242;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import styles from './ExchangeDetails.module.css'
 
 // it also accepts exchange array as props to provide details on a particular exchange
 const ExchangeDetails = ({ exchanges })=> {
@@ -15,7 +16,7 @@ const ExchangeDetails = ({ exchanges })=> {
 
   return (
     //details of the exchange
-    <div>
+    <div className={styles.detailsBox}>
       <h2>{exchange.name}</h2>
       <p>Country: {exchange.country}</p>
       <p>Type: {exchange.type}</p>
